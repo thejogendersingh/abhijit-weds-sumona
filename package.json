@@ -1,0 +1,16 @@
+{
+  "name": "wedding-invitation-clone",
+  "version": "1.0.0",
+  "description": "Swapnil & Ritu Wedding Invitation Clone",
+  "scripts": {
+    "start": "npx serve -l 5000 .",
+    "dev": "npx serve -l 5000 .",
+    "serve": "python server.py"
+  },
+  "keywords": [
+    "wedding",
+    "invitation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
