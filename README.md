@@ -18,7 +18,7 @@ An interactive digital wedding invitation for **Harsh (Khayansh) & Bhavana (Nair
     - Departure of Barat: 02:00 P.M.
     - Reassemble of Barat: 04:30 P.M.
     - Venue: Shyam Farm House, Khurja Junction, Bulandshahr
-- **A Cute Invitation From**: Ayaan, Lakshita, Nehal, Dhairya
+- **A Cute Invitation From**: Ayaan, Lakshita, Nehal, Chitra (Vidhi), Dhairya
 - **Wardrobe Guide**: Curated outfit inspirations for Engagement, Lunch, Barat & Wedding.
 - **Venue & Google Maps**: Interactive location tabs and direct directions buttons to both venues.
 - **Cordial Invitation & RSVP Details**: Smt. Sunita & Sh. Virender Kumar with clickable contact numbers.
