@@ -1,37 +1,34 @@
-# Swapnil & Ritu — Wedding Invitation (Clone)
+# Harsh & Bhavana — Wedding Invitation
 
-An exact, 1:1 identical clone of the interactive digital wedding invitation for **Swapnil & Ritu**.
+An interactive digital wedding invitation for **Harsh (Khayansh) & Bhavana (Naira)**.
 
 ## ✨ Features Included
 
 - **Interactive Envelope Opening**: Realistic 3D perspective hover & click opening animation with wax seal monogram.
 - **Falling Petal Dynamics**: Continuous floating flower petals (daisies & rose petals) with natural drifting physics.
-- **Interactive Scratch Card**: Interactive canvas where guests scratch to reveal the wedding date (*5th – 6th July 2026*).
+- **Interactive Scratch Card**: Interactive canvas where guests scratch to reveal the wedding date (*25th November 2026*).
 - **Live Countdown Timer**: Real-time ticker counting down days, hours, minutes, and seconds to the celebrations.
 - **Ceremony Timeline**:
-  - **Haldi**: 5th July 2026, 10:00 AM onwards (Yellow Attire)
-  - **Mehndi**: 5th July 2026, 04:00 PM onwards (Green Attire)
-  - **Sangeet**: 5th July 2026, 07:30 PM onwards (Glam & Glitz)
-  - **Wedding Ceremony**: 6th July 2026, 10:30 AM onwards (Traditional Elegance)
-- **Venue & Google Maps**: Embedded interactive map and direct directions button to *The Pod Retreat, Harshaguda, Hyderabad*.
-- **RSVP Details**: Family contact information and warm regards.
+  - **Engagement Programme**: Saturday, 21st November 2026
+    - Sagai Lagan: 11:00 A.M.
+    - Lunch: 01:00 P.M.
+    - Venue: The Messina Banquet Hall, Shahdara, New Delhi
+  - **Wedding Programme**: Wednesday, 25th November 2026
+    - Sehra Bandhi: 11:00 A.M.
+    - Departure of Barat: 02:00 P.M.
+    - Reassemble of Barat: 04:30 P.M.
+    - Venue: Shyam Farm House, Khurja Junction, Bulandshahr
+- **A Cute Invitation From**: Ayaan, Lakshita, Nehal, Dhairya
+- **Wardrobe Guide**: Curated outfit inspirations for Engagement, Lunch, Barat & Wedding.
+- **Venue & Google Maps**: Interactive location tabs and direct directions buttons to both venues.
+- **Cordial Invitation & RSVP Details**: Smt. Sunita & Sh. Virender Kumar with clickable contact numbers.
 - **Background Music Player**: Floating audio toggle button with background wedding instrumental music.
-- **High-Definition Original Assets**: All illustrations, Ganpati idol, Shiva-Parvati watercolor artwork, backgrounds, and custom typography (Great Vibes, Cinzel, Cormorant Garamond, Tiro Devanagari Hindi).
 
 ---
 
 ## 🚀 How to Run Locally
 
-### Option 1: Using npm / npx (Recommended)
-```bash
-npm start
-```
-or
-```bash
-npx serve .
-```
-
-### Option 2: Using Python
+### Using Python
 ```bash
 python server.py
 ```

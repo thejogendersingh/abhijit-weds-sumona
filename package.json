@@ -1,15 +1,17 @@
 {
-  "name": "wedding-invitation-clone",
+  "name": "harsh-weds-bhavana-wedding-invitation",
   "version": "1.0.0",
-  "description": "Swapnil & Ritu Wedding Invitation Clone",
+  "description": "Harsh & Bhavana Wedding Invitation",
   "scripts": {
-    "start": "npx serve -l 5000 .",
-    "dev": "npx serve -l 5000 .",
+    "start": "python server.py",
+    "dev": "python server.py",
     "serve": "python server.py"
   },
   "keywords": [
     "wedding",
-    "invitation"
+    "invitation",
+    "harsh",
+    "bhavana"
   ],
   "author": "",
   "license": "ISC"
