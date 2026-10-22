@@ -26,7 +26,7 @@ import{r as n,j as e}from"./index-CSqz49Uk.js";const D=(...t)=>t.filter((s,a,i)=
     e.jsx("div",{className:"mt-5 inline-flex items-center justify-center bg-amber-500/10 border border-amber-600/30 px-6 py-2 rounded-full font-cinzel text-xs sm:text-sm text-amber-900 font-semibold shadow-soft",children:"Monday, 30th November 2026 | 10:00 AM"})
   ]}),
   e.jsx("div",{className:"relative z-10 w-full max-w-[230px] sm:max-w-[270px] mx-auto mt-8 flex justify-center items-end self-end",children:
-    e.jsx("img",{src:"/img/haldi-new.png",alt:"Haldi Ceremony Couple",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
+    e.jsx("img",{src:"/img/haldi-groom.png",alt:"Haldi Ceremony Groom",className:"w-full h-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"})
   })
 ]}),e.jsxs("div",{className:"relative rounded-3xl overflow-hidden border border-gold-soft bg-white p-6 sm:p-12 shadow-elegant hover:shadow-2xl transition-all duration-500 group flex flex-col justify-between min-h-[550px] isolate",children:[
   e.jsx("img",{src:oe,alt:"",className:"absolute inset-0 w-full h-full object-cover z-0 pointer-events-none scale-[1.06] origin-center"}),
