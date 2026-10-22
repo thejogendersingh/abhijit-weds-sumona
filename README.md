@@ -1,6 +1,6 @@
-# Dr. Khushbu & Palkesh — Wedding Invitation
+# Palkesh & Dr. Khushbu — Wedding Invitation
 
-An interactive digital wedding invitation for **Dr. Khushbu & Palkesh**.
+An interactive digital wedding invitation for **Palkesh & Dr. Khushbu**.
 
 ## Celebrations Schedule
 - **Ganpati Sthapna**: 30th November 2026, Monday at 8:00 AM
@@ -17,11 +17,9 @@ Dewas, Raja Ram Nagar
 **Hashtag**: #KhushiKePal
 
 ## RSVP
-- Mr. Rasik K. Ranava
-- Mrs. Jyoti Rasik Ranava
-- Mr. Samyak Rasik Ranava
-- Ranava Family  
-Contact: 96242 11555 / 97374 11555
+- Mrs. Renu Rajendra Sharma & Mr. Rajendra Manohar Prasad Sharma
+- Mr. Rasik Ranava & Mrs. Jyoti Rasik Ranava
+Contact: 99262 65996 / 94247 92130
 
 ## Local Development
 ```bash
