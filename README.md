@@ -1,6 +1,6 @@
-# Palkesh & Dr. Khushbu — Wedding Invitation
+# Dr. Khushbu & Palkesh — Wedding Invitation
 
-An interactive digital wedding invitation for **Palkesh & Dr. Khushbu**.
+An interactive digital wedding invitation for **Dr. Khushbu & Palkesh**.
 
 ## Celebrations Schedule
 - **Ganpati Sthapna**: 30th November 2026, Monday at 8:00 AM
