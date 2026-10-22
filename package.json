@@ -1,7 +1,7 @@
 {
-  "name": "harsh-weds-bhavana-wedding-invitation",
+  "name": "dr-khushbu-weds-palkesh-wedding-invitation",
   "version": "1.0.0",
-  "description": "Harsh & Bhavana Wedding Invitation",
+  "description": "Dr. Khushbu & Palkesh Wedding Invitation",
   "scripts": {
     "start": "python server.py",
     "dev": "python server.py",
@@ -10,8 +10,10 @@
   "keywords": [
     "wedding",
     "invitation",
-    "harsh",
-    "bhavana"
+    "khushbu",
+    "palkesh",
+    "ranava",
+    "sharma"
   ],
   "author": "",
   "license": "ISC"

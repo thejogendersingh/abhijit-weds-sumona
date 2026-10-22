@@ -9,13 +9,14 @@ class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
-    def guess_type(self, path):
         if path.endswith(".js"):
-            return "application/javascript"
+            return "application/javascript; charset=utf-8"
         if path.endswith(".css"):
-            return "text/css"
+            return "text/css; charset=utf-8"
+        if path.endswith(".html"):
+            return "text/html; charset=utf-8"
         if path.endswith(".svg"):
-            return "image/svg+xml"
+            return "image/svg+xml; charset=utf-8"
         if path.endswith(".mp3"):
             return "audio/mpeg"
         if path.endswith(".webp"):

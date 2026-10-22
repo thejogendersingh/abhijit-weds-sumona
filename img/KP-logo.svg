@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="sealBg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#fff2d6"/>
+      <stop offset="35%" stop-color="#e8be78"/>
+      <stop offset="70%" stop-color="#bd852e"/>
+      <stop offset="100%" stop-color="#7a4e11"/>
+    </radialGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#e8c784" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#805315" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="sealShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3a050b" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer wax seal circle with scalloped edge feel -->
+  <circle cx="100" cy="100" r="92" fill="url(#sealBg)" filter="url(#sealShadow)"/>
+  
+  <!-- Inner rim rings -->
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#5a3407" stroke-width="2.5" opacity="0.75"/>
+  <circle cx="100" cy="100" r="77" fill="none" stroke="#fff1d0" stroke-width="1.5" stroke-dasharray="3.5 3" opacity="0.9"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#683d09" stroke-width="1.8" opacity="0.6"/>
+
+  <!-- Top delicate crown/stars ornament -->
+  <g fill="#462503" opacity="0.85" transform="translate(100, 48)">
+    <circle cx="0" cy="0" r="2.8"/>
+    <circle cx="-14" cy="2" r="2"/>
+    <circle cx="14" cy="2" r="2"/>
+    <circle cx="-26" cy="6" r="1.5"/>
+    <circle cx="26" cy="6" r="1.5"/>
+  </g>
+  
+  <!-- Monogram KP -->
+  <!-- Subtle back shadow for debossed look -->
+  <text x="101" y="119" text-anchor="middle" font-family="'Great Vibes', 'Cinzel', cursive, Georgia, serif" font-weight="700" font-size="62" letter-spacing="2" fill="#fff6e0" opacity="0.6">KP</text>
+  <text x="99.5" y="117.5" text-anchor="middle" font-family="'Great Vibes', 'Cinzel', cursive, Georgia, serif" font-weight="700" font-size="62" letter-spacing="2" fill="#422203">KP</text>
+  
+  <!-- Bottom wreath/ornament -->
+  <g fill="none" stroke="#4a2704" stroke-width="1.5" stroke-linecap="round" opacity="0.8" transform="translate(100, 142)">
+    <path d="M -35 -2 C -20 10 20 10 35 -2"/>
+    <circle cx="0" cy="8" r="2" fill="#4a2704"/>
+    <circle cx="-12" cy="7" r="1.5" fill="#4a2704"/>
+    <circle cx="12" cy="7" r="1.5" fill="#4a2704"/>
+  </g>
+</svg>
