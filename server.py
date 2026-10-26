@@ -1,13 +1,11 @@
-from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-import socket
-import threading
 import os
-import time
+import sys
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 PORT = 3000
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
-class Handler(SimpleHTTPRequestHandler):
+class WeddingHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
@@ -32,40 +30,18 @@ class Handler(SimpleHTTPRequestHandler):
 
     def end_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Cache-Control", "no-cache")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
         super().end_headers()
 
-class ServerV6(ThreadingHTTPServer):
-    address_family = socket.AF_INET6
-
-def start_server():
-    servers = []
-    
-    # IPv4 server (covers 127.0.0.1 and network IP)
+def main():
+    server_address = ("127.0.0.1", PORT)
+    httpd = ThreadingHTTPServer(server_address, WeddingHandler)
+    print(f"Bengali Wedding Invitation serving at: http://localhost:{PORT}")
+    sys.stdout.flush()
     try:
-        s4 = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
-        servers.append(s4)
-        threading.Thread(target=s4.serve_forever, daemon=True).start()
-    except Exception as e:
-        print(f"IPv4 server notice: {e}")
-
-    # IPv6 server (covers localhost resolving to ::1 on Windows)
-    try:
-        s6 = ServerV6(("::1", PORT), Handler)
-        servers.append(s6)
-        threading.Thread(target=s6.serve_forever, daemon=True).start()
-    except Exception as e:
-        pass
-
-    print(f"Serving wedding invitation at http://127.0.0.1:{PORT} and http://localhost:{PORT}")
-
-    try:
-        while True:
-            time.sleep(1)
+        httpd.serve_forever()
     except KeyboardInterrupt:
-        print("\nStopping server...")
-        for s in servers:
-            s.shutdown()
+        print("\nServer stopped.")
 
 if __name__ == "__main__":
-    start_server()
+    main()
