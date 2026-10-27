@@ -34,3 +34,59 @@
   opacity: 1 !important;
   transform: translateX(0) rotate(0deg) !important;
 }
+
+
+/* Custom Gallery & Polaroid Frame Styling */
+.gallery-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 2.25rem !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 3rem !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box !important;
+}
+
+.gallery-card {
+  width: 100% !important;
+  max-width: 320px !important;
+  background-color: #ffffff !important;
+  border-radius: 1.25rem !important;
+  border: 2.5px solid #d4af37 !important;
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  padding: 10px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.gallery-card:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0 16px 32px -4px rgba(0, 0, 0, 0.18) !important;
+}
+
+.gallery-card-inner {
+  width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  border-radius: 0.85rem !important;
+  overflow: hidden !important;
+  background-color: #fcf8f2 !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.gallery-card-inner img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 0.85rem !important;
+  display: block !important;
+}
